@@ -1,3 +1,6 @@
+# Default target
 all: typing
 
-typing: poetry run mypy
+# Typing target
+typing:
+	python3 -m	poetry run mypy
